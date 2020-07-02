@@ -20,6 +20,8 @@ func repl() {
 	}
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
+                fmt.Print("Picnic-Lisp Environment v.0.1.1")
+                fmt.Print("  Usage:  picnic < file.picnic")
 		fmt.Print("> ")
 		if !scanner.Scan() {
 			break
