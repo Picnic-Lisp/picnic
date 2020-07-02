@@ -1,0 +1,4 @@
+(package main)
+(go:import: 'fmt')
+
+(fmt.printf "hello world!")
