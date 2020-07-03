@@ -8,7 +8,7 @@ Submission project for a talk at the International Lisp Conference.
 The picnic programming language relies on a golang backend. In order to get started you should firstly install the Go programming language. After that you simply can install picnic as a global environment by typing this command in a local shell.:
 
 ```go
-go get http://github.com/timo-cmd/picnic/cmd/picnic/main.go
+go get github.com/timo-cmd/picnic/cmd/picnic
 ```
 
 After that you should be able to call the Picnic environment from any shell.
