@@ -26,3 +26,9 @@ With the provided environment you might even want to place your picnic code in s
 picnic < NameOfYourFile.picnic
 
 ```
+
+### Syntax
+
+Lets start explaining the syntax of picnic. As you already know, picnic is a Lisp-1 dialect and will be parenthesis based. So let’s explain the Basics of picnic.
+
+*Basic syntax:* 
