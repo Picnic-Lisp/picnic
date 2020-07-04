@@ -1,0 +1,6 @@
+A curated list of packages for picnic 
+ - http
+ - fmt
+ - bufio 
+ - encrypt
+ 
