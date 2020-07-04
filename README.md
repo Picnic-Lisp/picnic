@@ -1,6 +1,5 @@
 # picnic
 
-![CI](https://github.com/timo-cmd/picnic/workflows/CI/badge.svg)
 
 A lightweight and concurrent Lisp-dialect with a Golang back-end.
 
