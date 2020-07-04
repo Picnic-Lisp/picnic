@@ -1,0 +1,4 @@
+(setq fmt(go:import fmt))
+(defmacro chan:init (go)
+  (go:chan-make)
+  (go:chan-send "alive"))
