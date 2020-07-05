@@ -7,7 +7,7 @@ Submission project for a talk at the International Lisp Conference.
 
 ### Motivation
 
-I finally stumbled on Golang repo and tried to learn the language. Since I saw it has great reputation and is easy to use I tried to come up with a little week-end project. I then come up with a little Lisp-1 dialect that I call Picnic.
+I finally stumbled on Golang repo and tried to learn the language. Since I saw it has great reputation and is easy to use I tried to come up with a little week-end project. I then come up with a little Lisp-1 dialect that I call Picnic. My first thought was to make simple but powerful language that covers a lot of features such as...
 
 ### Installation 
 
