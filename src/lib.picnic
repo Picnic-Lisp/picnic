@@ -4,4 +4,6 @@
 (setq fs   (go:import github.com/rakyll/statik/fs))
 
 (defun LoadLib (env *Env) 
-  (go (error (statikFS
+  (go (error (setq statikFS err)
+      (setq err fs.New ())
+      // if err != ...
