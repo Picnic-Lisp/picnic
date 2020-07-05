@@ -1,0 +1,2 @@
+(defmacro import ()
+  (setq import (go:import))
