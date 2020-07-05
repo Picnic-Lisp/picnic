@@ -4,11 +4,11 @@
   (go:import log)
   (go:import net/http)
 
-  //(defun handler (w http.ResponseWriter, r *http.Request)
-  //  (go (fmt.Fprintf w, "Hi there, I love %s!", r.URL.Path[1:])))
+  ;; (defun handler (w http.ResponseWriter, r *http.Request)
+  ;;   (go (fmt.Fprintf w, "Hi there, I love %s!", r.URL.Path[1:])))
 
   (defun main ()
-  //(go (http.HandleFunc("/", handler)))
-    (go (log.Fatal(http.ListenAndServe(":8080", null))))
+  ;; (go (http.HandleFunc("/", handler)))
+     (go (log.Fatal(http.ListenAndServe(":8080", null))))
 
-  // now refer to: http://localhost:8080
+  ;; now refer to: http://localhost:8080
