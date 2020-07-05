@@ -1,0 +1,4 @@
+(defmacro define-module (name, value)
+  (go:import fmt)
+  (package name)
+  (let* name value))
