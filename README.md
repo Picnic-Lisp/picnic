@@ -5,6 +5,10 @@ A lightweight and concurrent Lisp-dialect with a Golang back-end. Inspired mainl
 
 Submission project for a talk at the International Lisp Conference.
 
+### Motivation
+
+I finally stumbled on Golang repo and tried to learn the language. Since I saw it has great reputation and is easy to use I tried to come up with a little week-end project. I then come up with a little Lisp-1 dialect that I call Picnic.
+
 ### Installation 
 
 The picnic programming language relies on a golang backend. In order to get started you should firstly install the Go programming language. After that you simply can install picnic as a global environment by typing this command in a local shell.:
