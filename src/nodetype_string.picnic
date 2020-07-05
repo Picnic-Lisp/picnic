@@ -3,4 +3,5 @@
 
 (defun _ ()
   (setq x [1]struct{})
-  (let _ //...
+  (let* _ 
+  ;; ...
