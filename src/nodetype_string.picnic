@@ -1,0 +1,6 @@
+(package picnic)
+(setq strconv (go:import strconv))
+
+(defun _ ()
+  (setq x [1]struct{})
+  (let _ //...
