@@ -1,7 +1,7 @@
 # picnic
 
 
-A lightweight and concurrent Lisp-dialect with a Golang back-end.
+A lightweight and concurrent Lisp-dialect with a Golang back-end. Inspired mainly by Emacs-Lisp and Open Dylan (of course also Golang).
 
 Submission project for a talk at the International Lisp Conference.
 
