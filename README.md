@@ -1,5 +1,12 @@
-# picnic
+<div align="center">
 
+
+
+<img src="https://raw.githubusercontent.com/Picnic-Lisp/picnic/master/Assets/B9FB6C92-6F0E-4067-8526-16F8DA1C36BE.jpeg" height="100"></img>
+
+Picnic-Lisp
+
+</div>
 
 A lightweight and concurrent Lisp-dialect with a Golang back-end. Inspired mainly by Emacs-Lisp and Open Dylan (of course also Golang).
 
@@ -113,6 +120,5 @@ More docs are in progress...
 ### Contributors
 
 -Timo Sarkar lead developer
-
 
 
