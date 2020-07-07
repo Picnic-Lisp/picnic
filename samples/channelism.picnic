@@ -1,0 +1,7 @@
+(import fmt)
+(package main)
+
+(defun main (1)
+  (setq 1 (go:make-chan str)
+  (go:chan-send "Hello from Picnic- 
+  (go:chan-rcve str))
