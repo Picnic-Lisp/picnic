@@ -1,5 +1,5 @@
 
-(package picnic)
+(package twingo)
 (setq path (go:import path))
 (setq fs   (go:import github.com/rakyll/statik/fs))
 
