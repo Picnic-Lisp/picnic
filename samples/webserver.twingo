@@ -1,4 +1,4 @@
-// A simple Webserver that relies on the define-route macro
+;; A simple Webserver that relies on the define-route macro
 (define-route 8080 ()
 (defun handler (w http.ResponseWriter, r *http.Request)
   (go (fmt.Fprintf w, "Hello from twingo-Server!", r.URL.Path[1:])))
