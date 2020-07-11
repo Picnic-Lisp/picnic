@@ -3,5 +3,5 @@
 
 (defun main (1)
   (setq 1 (go:make-chan str)
-  (go:chan-send "Hello from Picnic- 
+  (go:chan-send "Hello from Twingo!")
   (go:chan-rcve str))
