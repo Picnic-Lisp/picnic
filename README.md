@@ -1,4 +1,4 @@
-## Picnic
+## twingo
 
 A lightweight and concurrent Lisp-dialect with a Golang back-end. Inspired mainly by Emacs-Lisp and Open Dylan (of course also Golang).
 
@@ -6,22 +6,24 @@ Submission project for a talk at the International Lisp Conference.
 
 ### Motivation
 
-I finally stumbled on Golang repo and tried to learn the language. Since I saw it has great reputation and is easy to use I tried to come up with a little week-end project. I then come up with a little Lisp-1 dialect that I call Picnic. My first thought was to make simple but powerful language that covers a lot of features such as channels, go interop, a macro
+I finally stumbled on Golang repo and tried to learn the language. Since I saw it has great reputation and is easy to use I tried to come up with a little week-end project. I then come up with a little Lisp-1 dialect that I call twingo. My first thought was to make simple but powerful language that covers a lot of features such as channels, go interop, a macro
 -system and more. 
 
 
 
 ### Installation 
 
-The picnic programming language relies on a golang backend. In order to get started you should firstly install the Go programming language. After that you simply can install picnic as a global environment by typing this command in a local shell.:
+The twingo programming language relies on a golang backend. In order to get started you should firstly install the Go programming language. After that you simply can install picnic as a global environment by typing this command in a local shell.:
 
 ```go
-go get github.com/timo-cmd/picnic/cmd/picnic
+go get github.com/timo-cmd/twingo-Lisp/twingo/cmd/twingo
 ```
 
-After that you should be able to call the Picnic environment from any shell.
+After that you should be able to call the twingo environment from any shell.
 
-### Getting started
+
+
+## Getting started
 
 After all installation, we want to get more informations about the syntax and about Picnic‘s environment.
 
