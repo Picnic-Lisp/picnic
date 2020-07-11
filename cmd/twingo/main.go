@@ -1,5 +1,5 @@
 /*
-* This file is Part of the Picnic-Lisp research project
+* This file is Part of the Twingo-Lisp research project
 *
 * Copyright (c) 2020 Timo Sarkar
 *
