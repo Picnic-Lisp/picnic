@@ -1,4 +1,4 @@
 (package main)
-(go:import: 'fmt')
+(setq fmt (go:import: 'fmt')
 
 (fmt.printf "hello world!")
