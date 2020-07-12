@@ -32,7 +32,7 @@ Twingo comes served with a simple but powerful REPL and file executor. A REPL is
 With the provided environment you might even want to place your twingo code in separate script files such as: ```file.twingo```. 
 Lets get started by creating a little twingo program. First create a new file named ```hello.twingo``` and place this code as its content..:
 
-```Lisp
+```
 (package main)
 (setq base  (import base))
 (setq crypt (import crypt))
