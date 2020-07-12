@@ -29,12 +29,30 @@ After all installation, we want to get more informations about the syntax and ab
 
 Twingo comes served with a simple but powerful REPL and file executor. A REPL is invoked when you simply type the ```twingo``` command with no additional flags. It will start an interactive execution environment where you are able to type twingo code and it will be executed.
 
-With the provided environment you might even want to place your twingo code in separate script files such as: ```file.twingo```. To execute those script files you must open a local shell and type...
+With the provided environment you might even want to place your twingo code in separate script files such as: ```file.twingo```. 
+Lets get started by creating a little twingo program. First create a new file named ```hello.twingo``` and place this code as its content..:
+
+```Lisp
+(package main)
+(setq base  (import base))
+(setq crypt (import crypt))
+
+(define-function greet (name)
+  (let* ch (go:chan-make))
+  (go:chan-send "Hello, " name)
+  (go:chan-rcve ch)
+(greet (twingo))
+```
+To execute this script file you must open a local shell and type...
 
 ```bash
+twingo hello.twingo
+```
 
-twingo < NameOfYourFile.twingo
+And it will greet with:
 
+```
+Hello, twingo
 ```
 
 ### Contributors
