@@ -1,0 +1,7 @@
+(package project)
+(setq json (go:import 
+
+(let* project
+  '[name: "twingolisp"]
+   [author: "timo-cmd"]
+   [deps: "fmt, base0"]')
