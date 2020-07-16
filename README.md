@@ -16,7 +16,7 @@ I finally stumbled on Golang repo and tried to learn the language. Since I saw i
 The twingo programming language relies on a golang backend. In order to get started you should firstly install the Go programming language. After that you simply can install twingo as a global environment by typing this command in a local shell.:
 
 ```go
-go get github.com/timo-cmd/twingo-Lisp/twingo/cmd/twingo
+go get github.com/twingo-Lisp/twingo/cmd/twingo
 ```
 
 After that you should be able to call the twingo environment from any shell.
