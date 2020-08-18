@@ -1,5 +1,4 @@
-module github.com/timo-cmd/picnic
-
+module github.com/twingo-lisp/twingo
 go 1.14
 
 require (
