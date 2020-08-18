@@ -35,8 +35,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/timo-cmd/picnic/gopkg"
-	_ "github.com/timo-cmd/picnic/statik"
+	"github.com/timo-cmd/twingo-lisp/twingo/gopkg"
+	_ "github.com/twingo-lisp/twingo/statik"
 )
 
 type Ft int
